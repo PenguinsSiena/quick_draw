@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(255, 251, 134);
+}
+h1{
+    background-color: rgb(208, 228, 245);
+    color: rgb(13, 29, 59);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    letter-spacing: 8px;
+}
+#show_sketch{
+    float:right;
+}
+canvas{
+    border: 5px double rgb(214, 164, 84);
+    border-radius: 20px;
+    margin-top: 140px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from {box-shadow: 18px 18px 2px 1px rgba(255, 0, 204, 0.569);}
+    to {box-shadow: 12px 12px 2px 1px rgba(255, 154, 12, 0.569);}
+}
+#instructions{
+font-size: 25px;
+letter-spacing: 1px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+padding-top: 10px;
+}
+#label{
+    font-size: 20px;
+    color: rgb(78, 96, 54);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 10px;
+    background-color: rgb(175, 238, 185);
+    width: 300px;
+    border-radius: 15px;
+    border-style: double;
+    border-width: 5px;
+    padding-bottom: 8px;
+}
+
+#confidence{
+    font-size: 20px;
+    color: rgb(78, 96, 54);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 10px;
+    background-color: rgb(175, 238, 185);
+    width: 200px;
+    border-radius: 15px;
+    border-style: double;
+    border-width: 5px;
+    padding-bottom: 8px;
+}
+
+.footer{
+    float: center;
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    width: 100%;
+    color: rgb(145, 48, 124);
+}
